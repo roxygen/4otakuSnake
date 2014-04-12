@@ -1,0 +1,15 @@
+-main ApplicationMain 
+-lib flixel
+-lib openfl
+-lib flixel-addons
+-cp source
+-D tools=1.3.0
+-D fdb
+-D web
+-swf-version 11.2
+-swf export/flash/bin/OGS.swf
+-swf-header 960:560:60:000000
+-cp export/flash/haxe
+#--remap nme:flash
+#--no-inline
+-debug
